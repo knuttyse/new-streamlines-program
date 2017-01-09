@@ -1,0 +1,25 @@
+HVORFOR METODEN MED Å TEGNE SOM EN SLANGE:
+- Enkelt konsept
+HVORFOR IKKE:
+- tja
+
+
+ISSUES:
+- Hvor skal jeg starte?
+- Man bør starte i det pikselet med størst Jc?
+- Lager en ny matrise som har zeros i kantene
+- Når et piksel er fylt opp med strøm settes denne matrisen til null
+	i dette punktet.
+- Slangen skal gå til neste element som ikke er fylt opp, men har en nabo
+ 	som ikke er fylt opp og ikke er nåværende element.
+- Hvilke piksler skal strømmen inn i?
+- Når strøm går inn i et piksel legges denne strømmen til i en matrise som 
+ holder oversikt over hvor mye strøm som går inn i elementet. 
+
+
+
+HVORFOR PRØVE MED Å BRUKE g:
+- mer generelt
+HVORFOR IKKE:
+- mer abstrakt
+- fungerer det?
